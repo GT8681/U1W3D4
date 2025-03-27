@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+body h1{
+
+    text-align: center;
+    margin: 0;
+   
+}
+.casella{
+    
+    display: inline-block;
+   
+    margin-right: -1px;
+   background-color: violet;
+   padding: 1.5rem;
+
+}
+#tombola{
+    display: inline-block;
+  
+    color: yellow;
+
+}
