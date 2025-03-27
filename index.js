@@ -3,7 +3,7 @@ const arrayTombola = [];
 const Tomb = document.getElementById("tombola");
 
 for( let i = 0; i < 90; i++){
-    arrayTombola.push([]);
+    arrayTombola.push([i]);
     const cellDiv = document.createElement("div");
     cellDiv.classList.add("casella");
     
@@ -12,33 +12,27 @@ for( let i = 0; i < 90; i++){
 
     cellDiv.appendChild(cellH3);
     Tomb.appendChild(cellDiv);
-
-    
-const generateButton = document.getElementById("number");
-
-generateButton.addEventListener("click", function () {
-    const randomNumber = Math.floor(Math.random() * 90) + 1;
-    
-});
-
-
 }
 
+const estrai = document.getElementById("number");
+let numeriEstratti = [];
 
 
+estrai.onclick = function(e){
+let num = Math.ceil(Math.random()*90);
+const list = document.querySelectorAll(".casella");
 
+console.log(num,list[num -1]);
 
+const cellEstratta = list[num-1];
+cellEstratta.classList.add("selezione");
+}
 
-
-
-
-
-
-
+   
+    
 
 
 window.addEventListener("domContentLoaded", function(){
-
 
 
 

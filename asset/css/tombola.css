@@ -9,21 +9,35 @@ html{
 body h1{
 
     text-align: center;
-    margin: 0;
+    
    
 }
 .casella{
-    
+    font: bold 20px Arial, Helvetica, sans-serif;
     display: inline-block;
+    border: 5px solid #cc1818;
+    width: 5%;
+   background-color: rgb(251, 246, 255);
+   padding: 1rem;
    
-    margin-right: -1px;
-   background-color: violet;
-   padding: 1.5rem;
-
 }
 #tombola{
     display: inline-block;
-  
-    color: yellow;
+    color: rgb(38, 0, 255);
+    padding: 2rem;
+} 
 
+#number{
+   
+    font: bold 50px Arial, Helvetica, sans-serif;
+    border-width: 10px;
+    border-color: blueviolet;
+    padding: 5rem 5rem;
+    border-radius: 50%;
+    background-color: blue;
+    color: black;
+   
+}
+.selezione{
+    background-color: #cc1818;
 }
