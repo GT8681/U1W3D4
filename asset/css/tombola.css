@@ -7,24 +7,26 @@ html{
     scroll-behavior: smooth;
 }
 body h1{
-
+width: 100%;
     text-align: center;
     
    
 }
 .casella{
-    font: bold 20px Arial, Helvetica, sans-serif;
+    font: bold 30px Arial, Helvetica, sans-serif;
     display: inline-block;
     border: 5px solid #cc1818;
     width: 5%;
    background-color: rgb(251, 246, 255);
    padding: 1rem;
+ 
    
 }
 #tombola{
+    text-align: center;
     display: inline-block;
     color: rgb(38, 0, 255);
-    padding: 2rem;
+  
 } 
 
 #number{
@@ -39,5 +41,9 @@ body h1{
    
 }
 .selezione{
+    background-color: #cc1818;
+}
+.casellaSelezionata{
+
     background-color: #cc1818;
 }

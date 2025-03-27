@@ -13,24 +13,21 @@ for( let i = 0; i < 90; i++){
     cellDiv.appendChild(cellH3);
     Tomb.appendChild(cellDiv);
 }
+                   const estrai = document.getElementById("number");
+                   let numeriEstratti = [];
 
-const estrai = document.getElementById("number");
-let numeriEstratti = [];
 
+                   estrai.onclick = function(e){
+                   let num = Math.ceil(Math.random()*90);
+                  const list = document.querySelectorAll(".casella");
 
-estrai.onclick = function(e){
-let num = Math.ceil(Math.random()*90);
-const list = document.querySelectorAll(".casella");
+                  console.log(num,list[num -1]);
 
-console.log(num,list[num -1]);
+                   const cellEstratta = list[num-1];
+                 cellEstratta.classList.add("selezione");
+       }
 
-const cellEstratta = list[num-1];
-cellEstratta.classList.add("selezione");
-}
-
-   
     
-
 
 window.addEventListener("domContentLoaded", function(){
 
