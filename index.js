@@ -18,7 +18,7 @@ const generateButton = document.getElementById("number");
 
 generateButton.addEventListener("click", function () {
     const randomNumber = Math.floor(Math.random() * 90) + 1;
-    alert(`Numero generato: ${randomNumber}`);
+    
 });
 
 
